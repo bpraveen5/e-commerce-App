@@ -1,0 +1,73 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# /*
+# import { useState } from 'react';
+# import axios from 'axios';
+# import { useNavigate } from 'react-router-dom';
+# import './Registration.css';
+# import API from '../utils/API'; 
+# function RegisterForm() {
+#   const [form, setFormData] = useState({
+#     name: '', email: '', password: '', role: 'USER'
+#   });
+
+#   const handleChange = (e) => {
+#     const { name, value } = e.target;
+#     setFormData((prevForm) => ({
+#       ...prevForm,
+#       [name]: value,
+#     }));
+#   };
+#   const handleSubmit = async (e) => {
+#     e.preventDefault();
+#     try {
+#       await API.post('/auth/register', form);
+#       alert('Registered Successfully!');
+#     } catch (err) {
+#       alert('Error Registering');
+#     }
+#   };
+
+#   return (
+#     <div className='container'  style={{ width: '300px', margin: 'auto', padding: '20px', border: '1px solid #ccc', borderRadius: '5px'   }}>
+#       <h2>Register</h2>
+#       <form onSubmit={handleSubmit}>
+#         <input name="name" onChange={handleChange} placeholder="Name" required />
+#         <input name="email" onChange={handleChange} placeholder="Email" type="email" required />
+#         <input name="password" onChange={handleChange} placeholder="Password" type="password" required />
+#         <select name="role" onChange={handleChange}>
+#           <option value="USER">User</option>
+#           <option value="ADMIN">Admin</option>
+#         </select>
+#         <button type="submit">Register</button>
+#       </form>
+#     </div>
+#   );
+# }
+
+# export default RegisterForm;
+
+#  */
