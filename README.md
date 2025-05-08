@@ -35,7 +35,41 @@ If you are developing a production application, we recommend using TypeScript an
 ![Screenshot 2025-04-18 101141](https://github.com/user-attachments/assets/3faa84a7-be1e-42ef-8743-dcae8906d6f0)
 
 
+# E-commerce Website
 
+## Description
+An online shopping platform where users can browse products, add items to their cart, and place orders. Admins can manage products and view orders. This project is built as a full-stack web application using Java Spring Boot and React.js.
+
+## Technologies Used
+- **Backend:** Spring Boot, REST API, Spring Security, Maven
+- **Frontend:** React.js, Axios, React Router
+- **Database:** MySQL
+- **Other Tools:** Postman, Git, GitHub, npm
+
+## Features
+- User registration and login (with role-based access: admin/user)
+- Product listing and details view
+- Add to cart and remove from cart
+- Place order from cart items
+- Admin panel: add/edit/delete products, view orders
+- JWT-based authentication and authorization
+
+## How to Run
+./mvnw spring-boot
+cd ecommerce-frontend
+npm install
+npm start
+### Prerequisites
+- Java 17 (or Java 11)
+- Node.js + npm
+- MySQL Server
+- Maven
+
+### Backend Setup (Spring Boot)
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd ecommerce-backend
 
 
 
