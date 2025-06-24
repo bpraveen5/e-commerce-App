@@ -34,7 +34,7 @@ If you are developing a production application, we recommend using TypeScript an
 
 ![Screenshot 2025-05-20 231849](https://github.com/user-attachments/assets/1baeb0df-4c7d-4965-8ddd-70f0f0e5d020)
 
-![Screenshot 2025-04-18 101040](https://github.com/user-attachments/assets/cb87cfa5-5959-40da-a9b8-3ed0597cfb12)
+![Screenshot 2025-05-20 231802](https://github.com/user-attachments/assets/37510dca-61ef-494d-a1f9-afe119620813)
 
 ![Screenshot 2025-04-18 101141](https://github.com/user-attachments/assets/3faa84a7-be1e-42ef-8743-dcae8906d6f0)
 
